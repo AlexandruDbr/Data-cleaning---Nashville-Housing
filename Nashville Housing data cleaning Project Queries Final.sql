@@ -4,10 +4,6 @@
 USE ProjectsDB;
 GO
 
-CREATE PROCEDURE NashvilleH
-AS
-SELECT * FROM NashvilleHousing
-
 --1. Update the sales date column format from datetime to date
 UPDATE NashvilleHousing
 SET SaleDate = CONVERT(date, SaleDate)
@@ -154,7 +150,7 @@ WHERE LegalReference IN
 		) sub
 WHERE sub.NR > 1 )
 
-  -- 6.3 Check
+  -- 6.3 Check if duplicates still exist.
 
 SELECT * FROM
 	(SELECT

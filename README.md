@@ -1,7 +1,7 @@
 
 # Overview
 
-This project focuses on cleaning data in a SQL Server database, from the table with unformatted data `NashvilleHousing`. A introduction of the data set and the steps taken to clean the data are provided below:
+In this project I cleaned the data from a table called `NashvilleHousing` with SQL using Data Manipulation Language and Data Definition Language and string functions.
 
 # Data set:
 
